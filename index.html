@@ -1,36 +1,123 @@
 <!DOCTYPE html>
 <html lang="ja">
- <head>
- <meta charset="utf-8">
- <title>About Me Haruka</title>
- <meta name="description" content="サイトキャプションを入力">
- <meta name="keywords" content="SBFL,楠本研究室">
- <link rel="stylesheet" href="css/theme.css">
 
- <script src="sample.js"></script>
- </head>
- 
- <body>
-    <h1>プロフィール</h1>
+<head>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>About Me Haruka</title>
+    <meta name="description" content="サイトキャプションを入力">
+    <meta name="keywords" content="SBFL,楠本研究室">
+    <link rel="stylesheet" href="css/theme.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
 
-    <table class="profile">
-        <tr>
-            <td><img class="profile" src="images/202201_sigss_h-yosiok.jpg"></td>
-            <td>
-                    <div class="myInfo">
-                        <div class = "name">
-                            吉岡遼<br>Yoshioka Haruka
-                        </div>
-                        <div>
-                            大阪大学大学院情報科学研究科所属<br>
-                            E-mail: h-yosiok[at]ist.osaka-u.ac.jp
-                        </div>
+<body>
+    <!-- <header>
+        <h1 class="title">プロフィール</h1>
+        <nav class="nav">
+            <ul class="menu-group"><a href="#">item 1</a></ul>
+        </nav>
+    </header> -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-3 mb-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4"
+            aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Haruka</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">ホーム</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">最近のこと</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contents/blog.html">ブログ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container">
+        <table class="profile">
+            <tr>
+                <td><img class="profile" src="images/202201_sigss_h-yosiok.jpg"></td>
+                <td class="myInfo">
+                    <div class="name">
+                        吉岡遼<br>Yoshioka Haruka
                     </div>
-            </td>
-        </tr>
-        
-    </table>
-    <h2>略歴</h2>
-    <h2>使ったことがあるプログラミング言語</h2>
- </body>
+                    <div>
+                        大阪大学大学院情報科学研究科所属<br>
+                        E-mail: h-yosiok[at]ist.osaka-u.ac.jp
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section class="container">
+        <h2>略歴</h2>
+        <table class="biography">
+            <tr>
+                <td>
+                    2018年 4月
+                </td>
+                <td>
+                    大阪大学基礎工学部 入学
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2022年 3月
+                </td>
+                <td>
+                    大阪大学基礎工学部 卒業
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2022年 4月
+                </td>
+                <td>
+                    大阪大学大学院情報科学研究科 入学
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section class="container">    
+        <section class="program-language">
+        <h2>使ったことがあるプログラミング言語</h2>
+        <p>
+            <span>Java</span><img src="images/javalogo.png">
+            <span>C</span><img src="images/clogo.png">
+            <span>Python</span><img src="images/pythonlogo.png">
+            <span>JavaScript</span><img src="images/javascriptlogo.png">
+            <span>ShellScript</span><img src="images/shellscriptlogo.png">
+            <span>HTML</span><img src="images/HTMLlogo.png">
+            <span>CSS</span><img src="images/CSSlogo.png">
+        </p>
+    </section>
+    </section>
+    <section class="container">
+        <h2>読んだ論文</h2>
+        <p>
+            Y. Lei, H. Xie, T. Zhang, M. Yan, Z. Xu and C. Sun, "Feature-FL: Feature-Based Fault Localization," in IEEE
+            Transactions on Reliability, vol. 71, no. 1, pp. 264-283, March 2022
+        </p>
+        <p>
+            A. Bandyopadhyay and S. Ghosh, "Proximity based weighting of test cases to improve spectrum based fault
+            localization," 2011 26th IEEE/ACM International Conference on Automated Software Engineering (ASE 2011),
+            2011, pp. 420-423
+        </p>
+        <p>
+            Yiling Lou, Ali Ghanbari, Xia Li, Lingming Zhang, Haotian Zhang, Dan Hao, and Lu Zhang. 2020. Can automated
+            program repair refine fault localization? a unified debugging approach. In Proceedings of the 29th ACM
+            SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2020).
+        </p>
+    </section>
+</body>
+
 </html>

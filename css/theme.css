@@ -1,8 +1,30 @@
+header{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: darkslategray;
+  align-items: center;
+}
+
+.title{
+  margin-right: auto;
+  padding-left:10px;
+}
+
+.navbar-brand{
+  font-size: 80px;
+}
+
+.menu-item{
+  list-style:none;
+  display:inline-block;
+  padding:10px;
+}
+
 h1 {
-    color: #364e96;/*文字色*/
-    border: solid 3px #364e96;/*線色*/
-    padding: 0.5em;/*文字周りの余白*/
-    border-radius: 0.5em;/*角丸*/
+    color: white;/*文字色*/
+    font:bolder;
+    font-size:70px;
   }
 
 h2 {
@@ -12,6 +34,9 @@ h2 {
   border-left: solid 5px #7db4e6;/*左線*/
 }
 
+p {
+  font-size : 20px;
+}
 table.profile{
   display: block;
    border: none;
@@ -25,12 +50,31 @@ table.profile td{
    margin-bottom: 8px;
 }
 
+.program-language img{
+  vertical-align:middle;
+  margin-left:1ex;
+  margin-right:3ex;
+  height:2ex;
+}
+
+.container{
+  max-width: 50em;
+}
+
+.profParent{
+  position:relative;
+}
 .myInfo{
   vertical-align: bottom;
 }
 
 .name{
   font-weight: bolder;
+}
+
+.biography{
+  border-collapse: separate;
+  border-spacing: 20px 0px;
 }
 
 .flex{
@@ -45,5 +89,5 @@ table.profile td{
 }
 
 img.profile{
-  width:300px;
+  width:25em;
 }
