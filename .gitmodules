@@ -1,0 +1,3 @@
+[submodule "RatioTimer"]
+	path = RatioTimer
+	url = git@github.com:Haur514/RatioTimer.git
