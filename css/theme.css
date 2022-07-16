@@ -11,6 +11,9 @@ header{
   padding-left:10px;
 }
 
+.navbar{
+  margin-top:0rem;
+}
 .navbar-brand{
   font-size: 80px;
 }
@@ -90,4 +93,12 @@ table.profile td{
 
 img.profile{
   width:25em;
+}
+
+img.blog {
+  width:25rem;
+}
+
+.center{
+  text-align: center;
 }
