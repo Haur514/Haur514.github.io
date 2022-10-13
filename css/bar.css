@@ -1,0 +1,10 @@
+.navbar{
+    margin-top:0rem;
+    height:4rem;
+    background-color: linear-gradient(to bottom,"#191970","#1e90ff")
+}
+
+
+.navbar-brand{
+    font-size: 80px;
+  }
