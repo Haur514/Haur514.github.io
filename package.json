@@ -1,0 +1,19 @@
+{
+  "name": "haur514.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haur514/Haur514.github.io.git"
+  },
+  "author": "h-yosiok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haur514/Haur514.github.io/issues"
+  },
+  "homepage": "https://github.com/Haur514/Haur514.github.io#readme"
+}
