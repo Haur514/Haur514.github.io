@@ -8,5 +8,5 @@ window.addEventListener('load', function () {
 var getBlogImgWidth = function () {
     var container = document.getElementById("blog-container");
     var container_style = window.getComputedStyle(container);
-    return String(parseInt(container_style.width) - 30) + 'px';
+    return String(parseInt(container_style.width) / 4 * 3) + 'px';
 };
