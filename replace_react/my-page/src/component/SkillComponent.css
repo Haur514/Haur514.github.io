@@ -1,0 +1,9 @@
+.SkillComponent{
+    font-size: 2em;
+    height:1em;
+}
+
+.SkillComponent img{
+    height:100%;
+    width:auto;
+}
