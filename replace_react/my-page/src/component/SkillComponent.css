@@ -1,6 +1,11 @@
 .SkillComponent{
     font-size: 2em;
     height:1em;
+    width: 5em;
+    margin:.5em;
+    background-color: rgb(234, 238, 255);
+    border-radius: .5em;
+    padding:.5em;
 }
 
 .SkillComponent img{
