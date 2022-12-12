@@ -6,7 +6,7 @@ import Skills from "./Skills/Skills";
 function HomePage() {
   return (
     <div className="HomePage">
-      <img src={myself} alt="Image" />
+      {/* <img src={myself} alt="Image" /> */}
       <MyProfile/>
       <Skills/>
       <div className="readPaper">hoge</div>

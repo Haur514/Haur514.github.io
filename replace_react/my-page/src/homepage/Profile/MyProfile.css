@@ -1,3 +1,29 @@
-.MyProfile{
-    font-size: 2em;
+.MyProfile {
+  font-size: 3em;
+  position: relative;
+  background-color: white;
+  width:100%;
+  height:8em;
+}
+
+.MyProfile img{
+    height:100%;
+    margin:0;
+    opacity: 0.3;
+    object-fit: cover;;
+}
+
+.MyProfile .small {
+  font-size: 0.7em;
+}
+
+.MyProfile .MyProfile-text {
+  position: absolute;
+
+  font-weight: bold;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
 }
