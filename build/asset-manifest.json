@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Haur514.github.io/static/css/main.44b7a754.css",
+    "main.js": "/Haur514.github.io/static/js/main.9921d734.js",
+    "static/js/787.d3428903.chunk.js": "/Haur514.github.io/static/js/787.d3428903.chunk.js",
+    "static/media/202201_sigss_h-yosiok.jpg": "/Haur514.github.io/static/media/202201_sigss_h-yosiok.167bef18094a25982481.jpg",
+    "static/media/JuiceApp.png": "/Haur514.github.io/static/media/JuiceApp.67b23c3026e3aefdc3c5.png",
+    "static/media/RatioTimer.png": "/Haur514.github.io/static/media/RatioTimer.948aa0bf243a688f93a6.png",
+    "static/media/clogo.png": "/Haur514.github.io/static/media/clogo.791fdd0c54ed00d9a96e.png",
+    "static/media/javascriptlogo.png": "/Haur514.github.io/static/media/javascriptlogo.f002e1f0fedcaadc841f.png",
+    "static/media/logo.svg": "/Haur514.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Haur514.github.io/index.html",
+    "main.44b7a754.css.map": "/Haur514.github.io/static/css/main.44b7a754.css.map",
+    "main.9921d734.js.map": "/Haur514.github.io/static/js/main.9921d734.js.map",
+    "787.d3428903.chunk.js.map": "/Haur514.github.io/static/js/787.d3428903.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44b7a754.css",
+    "static/js/main.9921d734.js"
+  ]
+}
