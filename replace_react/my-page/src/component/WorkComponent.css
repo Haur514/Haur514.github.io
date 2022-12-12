@@ -1,6 +1,5 @@
 .WorkComponent{
     font-size: 1.4em;
-    height:10em;
     width: 100%;
     margin:.5em;
     background-color: rgb(255, 255, 255);
@@ -8,13 +7,22 @@
     padding:.5em;
     float: left;
     position:relative;
-    display:grid;
-    grid-template-rows:20% 80%;
 }
 
 .WorkComponent img{
-    height:100%;
-    width:auto;
+    width:100%;
+    height:auto;
+}
+
+.tags{
+    color:white;
+    font-size: .8em;
+    background-color: rgb(70, 9, 70);
+    padding:0.1em 0.2em;
+    border-radius: 0.5em;
+    margin: 0.1em 0.3em;
+    height:1.5em;
+    float:left;
 }
 
 
