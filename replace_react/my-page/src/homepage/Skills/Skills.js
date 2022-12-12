@@ -10,7 +10,7 @@ import pythonLogo from "./../../images/pythonlogo.png"
 function Skills() {
   return (
     <>
-      <div>
+      <div className="SkillsTitle">
         スキルセット
       </div>
     <div className="Skills">

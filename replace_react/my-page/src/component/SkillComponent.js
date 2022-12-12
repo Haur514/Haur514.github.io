@@ -7,7 +7,6 @@ function SkillComponent(props) {
         <span className="txt">
       {props.name}
       </span>
-      {/* <span class="dodge"></span> */}
       <img src={props.img}></img>
     </div>
   );
