@@ -1,6 +1,8 @@
 .HomePage{
     max-width:720px;
     text-align: center;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 .HomePage img{

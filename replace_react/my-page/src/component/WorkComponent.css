@@ -1,12 +1,27 @@
 .WorkComponent{
     font-size: 1.4em;
-    width: 100%;
+    width: 40%;
     margin:.5em;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(20deg,#1a0053,#000000);
     border-radius: .5em;
     padding:.5em;
     float: left;
+    flex-grow:1;
     position:relative;
+
+
+    border: 1px solid #8080ed;
+    box-shadow: 0px 0px .1em #8080ed;
+    
+}
+
+
+.WorkTitle{
+    color: white;
+    font-weight: bold;
+    text-shadow: 
+    0 0 1px #8080ed, 0 0 3px #8080ed, 
+    0 0 6px #8080ed;
 }
 
 .WorkComponent img{
@@ -14,14 +29,20 @@
     height:auto;
 }
 
-.tags{
+.WorkDescription{
     color:white;
+}
+
+.tags{
+    /* color: #464692; */
+    color: white;
     font-size: .8em;
-    background-color: rgb(70, 9, 70);
+    /* background-color: rgb(63, 0, 63); */
+    border: 1px solid #8080ed;
+    box-shadow: 0px 0px .2em #8080ed;
     padding:0.1em 0.7em;
     border-radius: 1em;
     margin: 0.1em 0.3em;
-    height:1.5em;
     float:left;
 }
 
