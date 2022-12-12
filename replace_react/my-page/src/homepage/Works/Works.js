@@ -7,11 +7,11 @@ function Works() {
   return (
     <>
       <div className="WorksTitle">
-        制作物
+        Works
       </div>
     <div className="Works">
-      <WorkComponent name="RatioTimer" description="時間が測れる．すごい．" imgSrc={RatioTimerLogo} tags={["JavaScript","完成済","SaaS"]}/>
-      <WorkComponent name="JuiceApp" description="ジュース販売管理できる．すごい．" imgSrc={JuiceAppLogo} tags={["TypeScript","React","Java Spring Boot","PostgreSQL","In Progress"]}/>
+      <WorkComponent name="RatioTimer" description="時間が測れる．すごい．" imgSrc={RatioTimerLogo} tags={["JavaScript","完成済","SaaS"]} urls={["https://github.com/Haur514/RatioTimer"]}/>
+      <WorkComponent name="JuiceApp" description="ジュース販売管理できる．すごい．" imgSrc={JuiceAppLogo} tags={["TypeScript","React","Java Spring Boot","PostgreSQL","In Progress"]} urls={["https://github.com/Haur514/juiceapp_frontend"]}/>
     </div>
     </>
   );

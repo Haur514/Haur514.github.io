@@ -11,7 +11,7 @@ function Skills() {
   return (
     <>
       <div className="SkillsTitle">
-        スキルセット
+        My Proficient Skills
       </div>
     <div className="Skills">
       <SkillComponent name="Java" img={javaLogo}/>

@@ -1,0 +1,29 @@
+.IntroduceMyself {
+  font-size: 1em;
+  position: relative;
+  color:white;
+  margin:1em;
+  text-align: left;
+}
+
+.IntroduceMyself img{
+    height:100%;
+    margin:0;
+    opacity: 0.3;
+    object-fit: cover;;
+}
+
+.IntroduceMyself .small {
+  font-size: 0.7em;
+}
+
+.IntroduceMyself .IntroduceMyself-text {
+  position: absolute;
+
+  font-weight: bold;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
