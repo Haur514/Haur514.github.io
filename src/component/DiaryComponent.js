@@ -1,5 +1,4 @@
-import "./MyProfile.css";
-import myself from "./../../images/202201_sigss_h-yosiok.jpg";
+import "./DiaryComponent.css";
 
 
 import React, { useRef ,useState, useEffect} from "react"
@@ -7,8 +6,9 @@ import React, { useRef ,useState, useEffect} from "react"
 import NET from 'vanta/dist/vanta.net.min'
 import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
 
-function MyProfile() {
 
+
+function DiaryComponent(props) {
   const [vantaEffect, setVantaEffect] = useState(0)
   const myRef = useRef(null)
   useEffect(() => {
@@ -32,15 +32,11 @@ function MyProfile() {
     }
   }, [vantaEffect])
 
-
   return (
-    <div className="MyProfile" ref={myRef}>
-      <img src={myself}/>
-      <div className="MyProfile-text">
-        Haruka Yoshioka <div className="small">from</div> Osaka University
-      </div>
-    </div>
+    <div className="vanta" ref={myRef}>
+    Foreground content goes here
+  </div>
   );
 }
 
-export default MyProfile;
+export default DiaryComponent;

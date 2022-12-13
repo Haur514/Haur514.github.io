@@ -10,8 +10,8 @@ function Works() {
         Works
       </div>
     <div className="Works">
-      <WorkComponent name="RatioTimer" description="時間が測れる．すごい．" imgSrc={RatioTimerLogo} tags={["JavaScript","SaaS","FP"]} urls={["https://github.com/Haur514/RatioTimer"]}/>
-      <WorkComponent name="JuiceApp" description="ジュース販売管理できる．すごい．" imgSrc={JuiceAppLogo} tags={["TypeScript","React","Java Spring Boot","PostgreSQL","In Progress"]} urls={["https://github.com/Haur514/juiceapp_frontend"]}/>
+      <WorkComponent name="RatioTimer" description="This App must free you from the burden of calcurate Time." imgSrc={RatioTimerLogo} tags={["JavaScript","SaaS","FP"]} urls={["https://github.com/Haur514/RatioTimer"]}/>
+      <WorkComponent name="JuiceApp" description="Im sure you'll be appreciated with JuiceApp when buying it." imgSrc={JuiceAppLogo} tags={["TypeScript","React","Java Spring Boot","PostgreSQL","In Progress"]} urls={["https://github.com/Haur514/juiceapp_frontend"]}/>
     </div>
     </>
   );

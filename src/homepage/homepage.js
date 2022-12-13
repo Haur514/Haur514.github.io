@@ -1,4 +1,5 @@
 import myself from "./../images/202201_sigss_h-yosiok.jpg";
+import DiaryPane from "./Diary/DiaryPane";
 import "./homepage.css";
 import IntroduceMyself from "./IntroduceMyself/IntroduceMyself";
 import MyProfile from "./Profile/MyProfile";
@@ -13,6 +14,7 @@ function HomePage() {
       <IntroduceMyself/>
       <Skills/>
       <Works/>
+      <DiaryPane/>
       <div className="readPaper">hoge</div>
       <div className="writePaper">poge</div>
     </div>
