@@ -5,7 +5,7 @@ import myself from "./../../images/202201_sigss_h-yosiok.jpg";
 import React, { useRef ,useState, useEffect} from "react"
 
 import NET from 'vanta/dist/vanta.net.min'
-import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
+import * as THREE from 'three';
 
 function MyProfile() {
 

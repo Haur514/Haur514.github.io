@@ -40,3 +40,13 @@
 .IntroduceMyself .IntroduceMyself-text {
   font-size:1.2em;
 }
+
+.ContactInformationPane{
+  font-size:2em;
+  text-align: right;
+}
+
+.ContactInformation{
+  float:right;
+  color:white;
+}
