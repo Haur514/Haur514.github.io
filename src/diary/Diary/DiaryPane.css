@@ -1,0 +1,23 @@
+
+
+.DiaryPane-content {
+  font-size: 1em;
+  color:black;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.DiaryPane{
+  text-align: left;
+  background-color: white;
+  border-radius: .5em;
+  margin: .5em .5em;
+  
+}
+
+.DiaryPane-title{
+  color:black;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
