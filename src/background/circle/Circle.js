@@ -13,8 +13,8 @@ function Circle({size,x,y,color,amplitude,center}) {
 
     function updatePosition(){
         console.log(center);
-        const posX = x + center["x"] + amplitude * Math.cos(getAngleToCenterPoint()) * Math.cos(timer*angularVelocity);
-        const posY = y+center["y"]+amplitude*Math.sin(getAngleToCenterPoint())*Math.sin(timer*angularVelocity-getAnguleDiffY());
+        const posX = x + center["x"] + amplitude * Math.cos(getAngleToCenterPoint()) * Math.cos(timer*angularVelocity+declination);
+        const posY = y+center["y"]+amplitude*Math.sin(getAngleToCenterPoint())*Math.sin(timer*angularVelocity-getAnguleDiffY()+declination);
         setPosition({x: posX,y: posY});
     }
 
