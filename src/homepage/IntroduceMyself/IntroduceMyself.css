@@ -17,6 +17,10 @@
   margin: .5em .5em;
 }
 
+.IntroduceMyselfComponent{
+  margin: 1em 0em;
+}
+
 .IntroduceMyselfTitle{
   color:white;
   font-size: 2em;

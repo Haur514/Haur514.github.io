@@ -8,13 +8,10 @@ import Works from "./Works/Works";
 function HomePage() {
   return (
     <div className="HomePage">
-      {/* <img src={myself} alt="Image" /> */}
       <MyProfile/>
       <IntroduceMyself/>
       <Skills/>
       <Works/>
-      <div className="readPaper">hoge</div>
-      <div className="writePaper">poge</div>
     </div>
   );
 }

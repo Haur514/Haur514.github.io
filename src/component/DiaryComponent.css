@@ -1,22 +1,24 @@
 
-@media screen and (min-width:720px) {
+@media screen and (min-width:540px) {
   .DiaryComponent{
     width:calc((100% - 4em - 4px)/2)
   }
 }
 
 
-@media screen and (min-width: 360px) and (max-width:720px){
+/* @media screen and (min-width: 360px) and (max-width:720px){
   .DiaryComponent{
     width:calc((100% - 4em - 4px)/2)
   }
-}
+} */
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 540px){
   .DiaryComponent{
     width:100%;
   }
 }
+
+
 .DiaryComponent {
   font-size: 1.4em;
   height: auto;
@@ -24,7 +26,6 @@
   border-radius: 0.5em;
   padding: 0.5em;
   float: left;
-  /* flex-grow: 1; */
   position: relative;
   border: 1px solid black;
   position: relative;

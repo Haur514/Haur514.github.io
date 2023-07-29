@@ -6,7 +6,7 @@ import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function IntroduceMyself() {
   return (
-    <>
+    <div className="IntroduceMyselfComponent">
     <div className="IntroduceMyselfTitle">Myself</div>
     <div className="IntroduceMyself">
       <span className="IntroduceMyself-text">
@@ -17,7 +17,7 @@ function IntroduceMyself() {
         <a className="ContactInformation" href="https://github.com/Haur514"><FontAwesomeIcon icon={faGithub}/></a><br></br>
       </span>
     </div>
-    </>
+    </div>
   );
 }
 

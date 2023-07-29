@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import HomePage from './homepage/homepage';
-import DiaryPane from './diary/Diary/DiaryPane';
+import BackGround from './background/BackGround';
 
 function App() {
   return (
-    <div className="App">
-      <HomePage></HomePage>
-      <DiaryPane></DiaryPane>
-    </div>
+    <>
+      <BackGround content={<HomePage/>}/>
+        {/* <HomePage/>
+      </BackGround> */}
+    </>
   );
 }
 

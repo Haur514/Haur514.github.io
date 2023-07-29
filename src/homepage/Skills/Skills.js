@@ -9,9 +9,9 @@ import pythonLogo from "./../../images/pythonlogo.png"
 
 function Skills() {
   return (
-    <>
+    <div className="SkillsComponent">
       <div className="SkillsTitle">
-        My Proficient Skills
+        Preferable Language
       </div>
     <div className="Skills">
       <SkillComponent name="Java" img={javaLogo}/>
@@ -21,7 +21,7 @@ function Skills() {
       <SkillComponent name="CSS" img={cssLogo}/>
       <SkillComponent name="Python" img={pythonLogo}/>
     </div>
-    </>
+    </div>
   );
 }
 
