@@ -1,0 +1,16 @@
+myapp:
+  - name: ratiotimer
+    description: This app must free you from the burden of calcurate time.
+    image: ./image/ratiotimer.png
+    tags:
+      - javascript
+      - SaaS
+  - name: kJuiceApp
+    description: kJuiceApp manage the selling of juice/food.
+    image: ./image/kjuiceapp.png
+    tags:
+      - TypeScript
+      - React
+      - Java Spring Boot
+      - PostgreSQL
+      - In Progress
