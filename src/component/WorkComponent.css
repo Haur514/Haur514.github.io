@@ -5,16 +5,17 @@
     background: black;
     border-radius: .5em;
     padding:.5em;
-    float: left;
-    flex-grow:1;
+    width: 100%;
     position:relative;
 
 
     border: 1px solid #8080ed;
     box-shadow: 0px 0px .1em #8080ed;
-    
 }
 
+.WorkContent{
+    display: flex;
+}
 
 .WorkTitle{
     color: white;
@@ -25,12 +26,19 @@
 }
 
 .WorkComponent img{
-    width:100%;
-    height:auto;
+    width: 5em;
+    height:5em;
+    overflow: hidden;
+    border-radius: 1em;
 }
 
 .WorkDescription{
     color:white;
+}
+
+.WorksDetails{
+    padding: 0em .5em;
+    width: calc(100% - 5em);
 }
 
 .tags{

@@ -23,7 +23,7 @@ async function loadMyAppYamlFile(){
 
 function content() {
 
-  const [myapps,setMyapps] = useState([{name:"",description:"",image:"",tags:[]}]);
+  const [myapps,setMyapps] = useState([{name:"",description:"",image:"",url:"",tags:[]}]);
 
   useEffect(() => {
     (async () => {
@@ -36,7 +36,7 @@ function content() {
   <div className="Works">
     {myapps.map((e) => {
       return(
-        <WorkComponent name={e["name"]} description={e["description"]} imgSrc={e["image"]} tags={e["tags"]} urls={["https://github.com/Haur514/RatioTimer"]} />
+        <WorkComponent name={e["name"]} description={e["description"]} imgSrc={e["image"]} tags={e["tags"]} url={e["url"]} />
       );
     })}
   </div>
