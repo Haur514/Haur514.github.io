@@ -1,20 +1,20 @@
 {
-  "files": {
-    "main.css": "/static/css/main.60fc6a44.css",
-    "main.js": "/static/js/main.c17e155d.js",
-    "static/js/787.d3428903.chunk.js": "/static/js/787.d3428903.chunk.js",
-    "static/media/202201_sigss_h-yosiok.jpg": "/static/media/202201_sigss_h-yosiok.167bef18094a25982481.jpg",
-    "static/media/JuiceApp.png": "/static/media/JuiceApp.67b23c3026e3aefdc3c5.png",
-    "static/media/RatioTimer.png": "/static/media/RatioTimer.948aa0bf243a688f93a6.png",
-    "static/media/clogo.png": "/static/media/clogo.791fdd0c54ed00d9a96e.png",
-    "static/media/javascriptlogo.png": "/static/media/javascriptlogo.f002e1f0fedcaadc841f.png",
-    "index.html": "/index.html",
-    "main.60fc6a44.css.map": "/static/css/main.60fc6a44.css.map",
-    "main.c17e155d.js.map": "/static/js/main.c17e155d.js.map",
-    "787.d3428903.chunk.js.map": "/static/js/787.d3428903.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.60fc6a44.css",
-    "static/js/main.c17e155d.js"
-  ]
+  "main.css": "/static/css/main.deb62a7f.chunk.css",
+  "main.js": "/static/js/main.cc70c553.chunk.js",
+  "main.js.map": "/static/js/main.cc70c553.chunk.js.map",
+  "static/js/1.40a91306.chunk.js": "/static/js/1.40a91306.chunk.js",
+  "static/js/1.40a91306.chunk.js.map": "/static/js/1.40a91306.chunk.js.map",
+  "static/js/2.791cef9f.chunk.js": "/static/js/2.791cef9f.chunk.js",
+  "static/js/2.791cef9f.chunk.js.map": "/static/js/2.791cef9f.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.0f72e73e.js",
+  "runtime~main.js.map": "/static/js/runtime~main.0f72e73e.js.map",
+  "static/media/202201_sigss_h-yosiok.jpg": "/static/media/202201_sigss_h-yosiok.4f5223f7.jpg",
+  "static/media/clogo.png": "/static/media/clogo.bc625c11.png",
+  "static/media/javascriptlogo.png": "/static/media/javascriptlogo.47d4d83a.png",
+  "static/media/RatioTimer.png": "/static/media/RatioTimer.946db488.png",
+  "static/media/JuiceApp.png": "/static/media/JuiceApp.1b75ba1d.png",
+  "static/css/main.deb62a7f.chunk.css.map": "/static/css/main.deb62a7f.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.32d3d262b1e6c377bc936b8bb7233432.js": "/precache-manifest.32d3d262b1e6c377bc936b8bb7233432.js",
+  "service-worker.js": "/service-worker.js"
 }
