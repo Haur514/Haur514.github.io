@@ -1,16 +1,33 @@
 myapp:
-  - name: ratiotimer
+  - name: RatioTimer
     description: This app must free you from the burden of calcurate time.
     image: ./image/ratiotimer.png
+    url: https://github.com/Haur514/RatioTimer
     tags:
       - javascript
       - SaaS
   - name: kJuiceApp
     description: kJuiceApp manage the selling of juice/food.
     image: ./image/kjuiceapp.png
+    url: https://github.com/kusumotolab/kJuiceApp
     tags:
       - TypeScript
       - React
       - Java Spring Boot
       - PostgreSQL
       - In Progress
+  - name: SaizeRoulette
+    description: Free from selecting a menu in saizeriya.
+    image: ./image/saizeroulette.png
+    url: https://github.com/Haur514/SaizeRoulette
+    tags:
+      - JavaScript
+      - React
+      - Roulette
+  - name: InfinityVariable
+    description: This makes easier to compare src code.
+    image: ./image/infinityvariable.png
+    url: https://github.com/Haur514/InfiniteVariety_exp_frontend
+    tags:
+      - JavaScript
+      - Front End

@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.e7e3b542.chunk.css",
-  "main.js": "/static/js/main.bc9a2ad1.chunk.js",
-  "main.js.map": "/static/js/main.bc9a2ad1.chunk.js.map",
+  "main.css": "/static/css/main.5bcacc16.chunk.css",
+  "main.js": "/static/js/main.7ad55ba7.chunk.js",
+  "main.js.map": "/static/js/main.7ad55ba7.chunk.js.map",
   "static/js/1.62cac4ab.chunk.js": "/static/js/1.62cac4ab.chunk.js",
   "static/js/1.62cac4ab.chunk.js.map": "/static/js/1.62cac4ab.chunk.js.map",
   "static/js/2.b9602c34.chunk.js": "/static/js/2.b9602c34.chunk.js",
@@ -11,8 +11,8 @@
   "static/media/202201_sigss_h-yosiok.jpg": "/static/media/202201_sigss_h-yosiok.4f5223f7.jpg",
   "static/media/clogo.png": "/static/media/clogo.bc625c11.png",
   "static/media/javascriptlogo.png": "/static/media/javascriptlogo.47d4d83a.png",
-  "static/css/main.e7e3b542.chunk.css.map": "/static/css/main.e7e3b542.chunk.css.map",
+  "static/css/main.5bcacc16.chunk.css.map": "/static/css/main.5bcacc16.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.1b9efe5f0956901344931607263b8c71.js": "/precache-manifest.1b9efe5f0956901344931607263b8c71.js",
+  "precache-manifest.f8b27808e940e2aa56d4287c30658c89.js": "/precache-manifest.f8b27808e940e2aa56d4287c30658c89.js",
   "service-worker.js": "/service-worker.js"
 }
