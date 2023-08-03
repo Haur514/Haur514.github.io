@@ -6,13 +6,10 @@ import javascriptLogo from "./../../images/javascriptlogo.png"
 import htmlLogo from "./../../images/HTMLlogo.png"
 import cssLogo from "./../../images/CSSlogo.png"
 import pythonLogo from "./../../images/pythonlogo.png"
+import ContentFrame from "../../component/ContentFrame.js";
 
-function Skills() {
-  return (
-    <div className="SkillsComponent">
-      <div className="SkillsTitle">
-        Preferable Language
-      </div>
+function content() {
+  return(
     <div className="Skills">
       <SkillComponent name="Java" img={javaLogo}/>
       <SkillComponent name="C" img={cLogo}/>
@@ -21,7 +18,12 @@ function Skills() {
       <SkillComponent name="CSS" img={cssLogo}/>
       <SkillComponent name="Python" img={pythonLogo}/>
     </div>
-    </div>
+  );
+}
+
+function Skills() {
+  return (
+    <ContentFrame title="Preferable Language" content={content()} />
   );
 }
 

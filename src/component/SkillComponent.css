@@ -7,7 +7,7 @@
     margin:.5em;
     color:white;
     font-weight: bold;
-    background: linear-gradient(20deg,#1a0053,#000000);
+    background: black;
     border-radius: .5em;
     padding:.5em;
     float: left;
@@ -15,6 +15,8 @@
     position:relative;
     border: 1px solid #8080ed;
     box-shadow: 0px 0px .1em #8080ed;
+
+    text-align: center;
 
     text-shadow: 
       0 0 1px #8080ed, 0 0 3px #8080ed, 
