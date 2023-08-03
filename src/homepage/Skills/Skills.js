@@ -7,6 +7,7 @@ import htmlLogo from "./../../images/HTMLlogo.png"
 import cssLogo from "./../../images/CSSlogo.png"
 import pythonLogo from "./../../images/pythonlogo.png"
 import ContentFrame from "../../component/ContentFrame.js";
+import React from "react";
 
 function content() {
   return(

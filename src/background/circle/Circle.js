@@ -1,6 +1,9 @@
 import "./Circle.css";
 import { useEffect ,useState,useRef} from "react";
 import useInterval from "../../util/useInterval";
+import React from "react";
+
+
 function Circle({size,x,y,color,amplitude,center}) {
     const [position,setPosition] = useState({x:x+center["x"],y:y+center["y"]});
     const [timer,setTimer] = useState(0);

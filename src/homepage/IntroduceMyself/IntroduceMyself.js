@@ -3,6 +3,8 @@ import "./IntroduceMyself.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import ContentFrame from "../../component/ContentFrame";
+import React from "react";
+
 
 function content(){
   return(

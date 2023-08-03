@@ -1,5 +1,6 @@
 import "./BackGround.css";
 import Circle from "./circle/Circle";
+import React from "react";
 
 function BackGround(props) {
   let circleList = [

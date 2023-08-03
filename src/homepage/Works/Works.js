@@ -3,6 +3,8 @@ import "./Works.css";
 import RatioTimerLogo from "./../../images/RatioTimer.png"
 import JuiceAppLogo from "./../../images/JuiceApp.png"
 import ContentFrame from "../../component/ContentFrame.js";
+import React from "react";
+
 
 function content() {
   return(

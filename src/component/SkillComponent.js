@@ -1,4 +1,5 @@
 import "./SkillComponent.css";
+import React from "react";
 
 function SkillComponent(props) {
   return (

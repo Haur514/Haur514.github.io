@@ -1,4 +1,6 @@
 import "./WorkComponent.css";
+import React from "react";
+
 
 function WorkComponent(props) {
   return (
