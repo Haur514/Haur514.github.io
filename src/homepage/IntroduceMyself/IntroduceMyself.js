@@ -9,15 +9,15 @@ import React from "react";
 function content(){
   return(
     <div>
-      <span className="IntroduceMyself-text">
-        Hi, Im Haruka from Osaka University, one of the most influential universities in Japan. Please contact the following regarding work.<br></br>
+      <span>
+        Hi, Im Haruka from Osaka University, one of the most influential universities in Japan. Please contact the following regarding work.<br/>
       </span>
       <span className="ContactInformationPane">
         <a className="ContactInformation" href="https://twitter.com/XLPTE"><FontAwesomeIcon icon={faTwitter}/></a>
-        <a className="ContactInformation" href="https://github.com/Haur514"><FontAwesomeIcon icon={faGithub}/></a><br></br>
+        <a className="ContactInformation" href="https://github.com/Haur514"><FontAwesomeIcon icon={faGithub}/></a><br/>
       </span>
     </div>
-  );
+  )
 }
 
 function IntroduceMyself() {
