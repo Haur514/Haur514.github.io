@@ -3,3 +3,11 @@
     display:flex;
     flex-wrap:wrap;
 }
+
+.Category{
+    font-weight: bold;
+    font-size: 1.4em;
+    text-shadow: 
+      0 0 1px #8080ed, 0 0 3px #8080ed, 
+      0 0 6px #8080ed;
+}

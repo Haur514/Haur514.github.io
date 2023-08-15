@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 async function loadMyAppYamlFile(){
   let tmp;
-  await fetch("./myapp.yaml")
+  await fetch("./content/myapp.yaml")
   .then(res => res.blob())
   .then(blob => blob.text())
   .then(yamlAsString => {

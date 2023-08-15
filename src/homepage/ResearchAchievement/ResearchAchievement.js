@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 async function loadAchievementYamlFile(){
     let tmp;
-    await fetch("./achievement.yaml")
+    await fetch("./content/achievement.yaml")
     .then(res => res.blob())
     .then(blob => blob.text())
     .then(yamlAsString => {
