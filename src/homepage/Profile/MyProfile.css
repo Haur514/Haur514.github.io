@@ -5,6 +5,10 @@
   height:8em;
 }
 
+.ProfileImg{
+  width: 100%;
+}
+
 .MyProfile img{
     height:100%;
     margin:0;

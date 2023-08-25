@@ -1,11 +1,9 @@
-import "./MyProfile.css";
-import myself from "./../../images/202201_sigss_h-yosiok.jpg";
-
-
-import React, { useRef ,useState, useEffect, useCallback} from "react"
-import useInterval from "../../util/useInterval";
-import NET from 'vanta/dist/vanta.net.min'
+import React, { useEffect, useRef, useState } from "react";
 import * as THREE from 'three';
+import NET from 'vanta/dist/vanta.net.min';
+import useInterval from "../../util/useInterval";
+import myself from "./../../images/202201_sigss_h-yosiok.jpg";
+import "./MyProfile.css";
 
 function MyProfile() {
 
@@ -56,7 +54,7 @@ function MyProfile() {
 
   return (
     <div className="MyProfile" ref={myRef}>
-      <img src={myself}/>
+      <img src={myself} className="ProfileImg"/>
       <div className="Tamano">
         {showTamano}
       </div>

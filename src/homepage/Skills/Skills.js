@@ -1,22 +1,8 @@
-import SkillComponent from "../../component/SkillComponent.js";
-import "./Skills.css";
-import React from "react";
-import { useEffect ,useState} from "react";
+import React, { useEffect, useState } from "react";
 import ContentFrame from "../../component/ContentFrame.js";
-
-async function loadLanguageYamlFile(){
-  let tmp;
-  await fetch("./content/programingLanguage.yaml")
-  .then(res => res.blob())
-  .then(blob => blob.text())
-  .then(yamlAsString => {
-      tmp = yamlAsString;
-  })
-  .catch(err => console.log(err));
-
-  const jsYaml = require('js-yaml');
-  return jsYaml.load(tmp);
-}
+import SkillComponent from "../../component/SkillComponent.js";
+import { Back } from "../../util/Back.js";
+import "./Skills.css";
 
 function content() {
 
@@ -24,7 +10,7 @@ function content() {
 
   useEffect(() => {
     (async () => {
-        setLanguage(await loadLanguageYamlFile());
+        setLanguage(await Back.fetch_yaml("./content/programingLanguage.yaml"));
     })();
   },[])
 

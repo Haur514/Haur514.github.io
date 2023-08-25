@@ -1,25 +1,8 @@
-import WorkComponent from "../../component/WorkComponent.js";
-import "./Works.css";
+import React, { useEffect, useState } from "react";
 import ContentFrame from "../../component/ContentFrame.js";
-import React from "react";
-import { useState, useEffect } from "react";
-
-async function loadMyAppYamlFile(){
-  let tmp;
-  await fetch("./content/myapp.yaml")
-  .then(res => res.blob())
-  .then(blob => blob.text())
-  .then(yamlAsString => {
-      tmp = yamlAsString;
-  })
-  .catch(err => console.log(err));
-
-  const jsYaml = require('js-yaml');
-  console.log(tmp);
-  console.log(jsYaml.load(tmp));
-  return jsYaml.load(tmp);
-}
-
+import WorkComponent from "../../component/WorkComponent.js";
+import { Back } from "../../util/Back.js";
+import "./Works.css";
 
 function content() {
 
@@ -27,7 +10,7 @@ function content() {
 
   useEffect(() => {
     (async () => {
-      let tmp = await loadMyAppYamlFile();
+      let tmp = await Back.fetch_yaml("./content/myapp.yaml");
         setMyapps(tmp["myapp"]);
     })();
   },[])

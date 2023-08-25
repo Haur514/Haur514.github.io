@@ -1,25 +1,9 @@
-import { load } from "js-yaml";
+import React, { useEffect, useState } from "react";
 import ContentFrame from "../../component/ContentFrame";
-import "./ResearchAchievement.css"
-import React from "react";
-import { useState, useEffect } from "react";
-
-async function loadAchievementYamlFile(){
-    let tmp;
-    await fetch("./content/achievement.yaml")
-    .then(res => res.blob())
-    .then(blob => blob.text())
-    .then(yamlAsString => {
-        tmp = yamlAsString;
-    })
-    .catch(err => console.log(err));
-
-    const jsYaml = require('js-yaml');
-    return jsYaml.load(tmp);
-}
+import { Back } from "../../util/Back";
+import "./ResearchAchievement.css";
 
 function getContent(){
-
     const [achievements,setAchievements] = useState([]);
     const [domesticConf,setDomesticConf] = useState([]);
     const [internationalConf,setInternationalConf] = useState([]);
@@ -27,7 +11,7 @@ function getContent(){
 
     useEffect(() => {
         (async () => {
-            setAchievements(await loadAchievementYamlFile());
+            setAchievements(await Back.fetch_yaml("./content/achievement.yaml"));
         })();
     },[])
 
