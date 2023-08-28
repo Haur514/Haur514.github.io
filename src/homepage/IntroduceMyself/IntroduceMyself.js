@@ -1,20 +1,29 @@
 import "./IntroduceMyself.css";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { useEffect, useState } from "react";
 import ContentFrame from "../../component/ContentFrame";
-import React from "react";
-
-
+import { Back } from "../../util/Back";
 function content(){
+
+  const[myself,setMyself] = useState({introduction:"",twitter:"",github:""});
+
+  useEffect(() => {
+    (async () => {
+        setMyself(await Back.fetch_yaml("./content/myself.yaml"));
+    })();
+  },[])
+
   return(
     <div>
       <span>
-        Hi, Im Haruka from Osaka University, one of the most influential universities in Japan. Please contact the following regarding work.<br/>
+        {myself.introduction}
       </span>
+      <br/>
       <span className="ContactInformationPane">
-        <a className="ContactInformation" href="https://twitter.com/XLPTE"><FontAwesomeIcon icon={faTwitter}/></a>
-        <a className="ContactInformation" href="https://github.com/Haur514"><FontAwesomeIcon icon={faGithub}/></a><br/>
+        <a className="ContactInformation" href={myself.twitter}><FontAwesomeIcon icon={faTwitter}/></a>
+        <a className="ContactInformation" href={myself.github}><FontAwesomeIcon icon={faGithub}/></a><br/>
       </span>
     </div>
   )
