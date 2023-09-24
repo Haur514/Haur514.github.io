@@ -13,6 +13,10 @@ conf:
       author: "Haruka Yoshioka, Higo Yoshiki, and Shinji Kusumoto."
       conference: "IEEE International Working Conference on Source Code Analysis and Manipuration"
       year: 2022
+    - title: "Do Exceptional Bahavior Tests Matter on Spectrum-based Fault Localization?"
+      author: "Haruka Yoshioka, Higo Yoshiki, Shinsuke Matsumoto, Shinji Kusumoto, Shinji Itoh, and Phan Thi THanh Huyen"
+      conference: "International Conference on on Product-Focused Software Process Improvement"
+      year: 2023
 award:
   - award: "IEEE Computer Society Japan Chapter SES Young Researcher Award"
     conference: "Software Engineering Symposium"
