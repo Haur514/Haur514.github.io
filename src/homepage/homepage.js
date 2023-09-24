@@ -5,7 +5,10 @@ import ResearchAchievements from "./ResearchAchievement/ResearchAchievement";
 import Skills from "./Skills/Skills";
 import Works from "./Works/Works";
 import "./homepage.css";
+
 function HomePage() {
+
+
   return (
     <div className="HomePage">
       <MyProfile/>

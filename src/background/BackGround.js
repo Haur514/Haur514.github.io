@@ -1,6 +1,6 @@
+import React from "react";
 import "./BackGround.css";
 import Circle from "./circle/Circle";
-import React from "react";
 
 function BackGround(props) {
   let circleList = [
@@ -11,7 +11,7 @@ function BackGround(props) {
     {size: 60, x:-200, y:-100, color: "#705DA8", amplitude:50},
   ]
   return (
-    <div className="BackGroundComponent">
+    <div className="BackGroundComponent" style={props.style}>
       {circleList.map((e) => {
         return <Circle size={e["size"]} x={e["x"]} y={e["y"]} color={e["color"]} amplitude={e["amplitude"]} center={{x: window.innerWidth / 8,y: window.innerHeight / 4 * 3}}/>
       })}

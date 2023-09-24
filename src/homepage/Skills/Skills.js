@@ -4,6 +4,9 @@ import SkillComponent from "../../component/SkillComponent.js";
 import { Back } from "../../util/Back.js";
 import "./Skills.css";
 
+function categoryStyle(){
+  return {textShadow: "0 0 1px #8080ed, 0 0 3px #8080ed, 0 0 6px #8080ed"};
+}
 function content() {
 
   const[language,setLanguage] = useState({like:[],used:[]});
@@ -23,7 +26,7 @@ function content() {
 
   return(
     <div>
-      <div className="Category">Like:</div>
+      <div className="Category" style={categoryStyle()}>Like:</div>
       <div className="Skills">
       {language["like"].map((e) => {
         return(
@@ -31,7 +34,7 @@ function content() {
         );
       })}
       </div>
-      <div className="Category">Have Used:</div>
+      <div className="Category" style={categoryStyle()}>Have Used:</div>
       <div className="Skills">
       {language["used"].map((e) => {
         return(

@@ -10,6 +10,7 @@ function MyProfile() {
   const [message,setMessage] = useState([]);
   const [messageIndex,setMessageIndex] = useState(0);
 
+
   useEffect(() => {
     (async () => {
         setMessage(await Back.fetch_yaml("./content/message.yaml"));
