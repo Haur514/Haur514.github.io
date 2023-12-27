@@ -17,9 +17,9 @@ function BackGround(props) {
   },[]);
 
   return (
-    <div className="bg-black" style={props.style}>
+    <div className="bg-black z-0" style={props.style}>
       {circleList.map((e) => {
-        return <Circle size={e["size"]} x={e["x"]} y={e["y"]} color={e["color"]} amplitude={e["amplitude"]} center={{x: width / 8,y: height / 4 * 3}}/>
+        return <Circle size={e["size"]} x={e["x"]} y={e["y"]} color={e["color"]} amplitude={e["amplitude"]} center={{x: width / 8,y: height / 4 * 3}} key={e}/>
       })}
 
       {props.content}

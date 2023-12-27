@@ -4,4 +4,9 @@
 
 body{
     background-color: black;
+    position: relative;
+    max-width: 720px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }

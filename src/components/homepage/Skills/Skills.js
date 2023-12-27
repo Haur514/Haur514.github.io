@@ -6,7 +6,7 @@ import SkillComponent from "../../component/SkillComponent.js";
 function categoryStyle(){
   return {textShadow: "0 0 1px #8080ed, 0 0 3px #8080ed, 0 0 6px #8080ed"};
 }
-function content() {
+function Content() {
 
   const[language,setLanguage] = useState({like:[],used:[]});
 
@@ -29,7 +29,7 @@ function content() {
       <div className="Skills">
       {language["like"].map((e) => {
         return(
-          <SkillComponent name={e["language"]} img={e["image"]} />
+          <SkillComponent name={e["language"]} img={e["image"]} key={e["language"]} />
         );
       })}
       </div>
@@ -37,7 +37,7 @@ function content() {
       <div className="Skills">
       {language["used"].map((e) => {
         return(
-          <SkillComponent name={e["language"]} img={e["image"]} />
+          <SkillComponent name={e["language"]} img={e["image"]} key={e["language"]}/>
         );
       })}
       </div>
@@ -47,7 +47,7 @@ function content() {
 
 function Skills() {
   return (
-    <ContentFrame title="Preferable Language" content={content()} />
+    <ContentFrame title="Preferable Language" content={Content()} />
   );
 }
 

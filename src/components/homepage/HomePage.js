@@ -6,17 +6,8 @@ import Works from "./Works/Works";
 
 function HomePage() {
 
-  const homePageStyle = {
-    position : "relative",
-    maxWidth : "720px",
-    textAlign: "center",
-    marginRight: "auto",
-    marginLeft: "auto",
-    zIndex: 10
-  }
-
   return (
-    <div className="w-full" style={homePageStyle}>
+    <div className="w-full z-10 text-white">
       <MyProfile/>
       <IntroduceMyself/>
       <Skills/>

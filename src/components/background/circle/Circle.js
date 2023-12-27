@@ -61,7 +61,7 @@ function Circle({size,x,y,color,amplitude,center}) {
         zIndex: 0
     }
   return (
-    <div style={styles} />
+    <div className="z-0" style={styles} />
   );
 }
 

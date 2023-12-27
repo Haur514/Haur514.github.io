@@ -1,6 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import * as THREE from 'three';
-import BIRD from 'vanta/dist/vanta.birds.min';
 import { Back } from "../../../util/Back";
 import useInterval from "../../../util/UseInterval";
 
@@ -23,26 +21,24 @@ function MyProfile() {
   const [showTamano,setShowTamano] = useState("");
   const [posChar,setPosChar] = useState(0);
 
-  useEffect(() => {
-    if (!vantaEffect) {
-      setVantaEffect(BIRD({
-        el: myRef.current,
-        THREE:THREE,
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        color1: "#d200ff",
-        color2: 0xffffff
-      }))
-    }
-    return () => {
-      if (vantaEffect) vantaEffect.destroy()
-    }
-  }, [vantaEffect])
+  // useEffect(() => {
+  //   if (!vantaEffect) {
+  //     setVantaEffect(BIRD({
+  //       el: myRef.current,
+  //       THREE:THREE,
+  //       mouseControls: true,
+  //       touchControls: true,
+  //       gyroControls: false,
+  //       minHeight: 200.00,
+  //       minWidth: 200.00,
+  //       scale: 1.00,
+  //       scaleMobile: 1.00,
+  //     }))
+  //   }
+  //   return () => {
+  //     if (vantaEffect) vantaEffect.destroy()
+  //   }
+  // }, [vantaEffect])
 
   function isMessageLoaded(){
     if(typeof message === "undefined") return false;
