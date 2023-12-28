@@ -10,7 +10,7 @@ function Content(){
 
   useEffect(() => {
     (async () => {
-        setMyself(await Back.fetch_yaml("./content/myself.yaml"));
+        setMyself(await Back.fetch_yaml("/content/myself.yaml"));
     })();
   },[])
 

@@ -12,7 +12,7 @@ function Content() {
 
   useEffect(() => {
     (async () => {
-        setLanguage(await Back.fetch_yaml("./content/programingLanguage.yaml"));
+        setLanguage(await Back.fetch_yaml("/content/programingLanguage.yaml"));
     })();
   },[])
 

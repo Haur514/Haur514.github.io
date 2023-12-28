@@ -13,7 +13,7 @@ function MyProfile() {
 
   useEffect(() => {
     (async () => {
-        setMessage(await Back.fetch_yaml("./content/message.yaml"));
+        setMessage(await Back.fetch_yaml("/content/message.yaml"));
     })();
   },[])
 
@@ -75,7 +75,7 @@ function MyProfile() {
 
   return (
     <div className="relative h-64" ref={myRef}>
-      <img src={`${BASE_PATH}/image/202201_sigss_h-yosiok.jpg`} className="w-full h-full opacity-20 object-cover"/>
+      <img src = {`${BASE_PATH}/image/202201_sigss_h-yosiok.jpg`} className="w-full h-full opacity-20 object-cover"/>
       <div className="absolute w-full text-4xl top-1/3 font-bold">
         {showTamano}
       </div>

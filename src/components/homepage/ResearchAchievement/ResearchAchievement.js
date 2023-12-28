@@ -11,7 +11,7 @@ function GetContent(){
 
     useEffect(() => {
         (async () => {
-            setAchievements(await Back.fetch_yaml("./content/achievement.yaml"));
+            setAchievements(await Back.fetch_yaml("/content/achievement.yaml"));
         })();
     },[])
 
