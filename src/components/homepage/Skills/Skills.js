@@ -25,21 +25,25 @@ function Content() {
 
   return(
     <div>
-      <div className="font-bold text-xl" style={categoryStyle()}>Like:</div>
-      <div className="Skills">
-      {language["like"].map((e) => {
-        return(
-          <SkillComponent name={e["language"]} img={e["image"]} key={e["language"]} />
-        );
-      })}
+      <div>
+        <div className="font-bold text-xl" style={categoryStyle()}>Like:</div>
+        <div className="flex flex-wrap">
+        {language["like"].map((e) => {
+          return(
+            <SkillComponent name={e["language"]} img={e["image"]} key={e["language"]} />
+          );
+        })}
+        </div>
       </div>
-      <div className="font-bold text-xl" style={categoryStyle()}>Have Used:</div>
-      <div className="Skills">
-      {language["used"].map((e) => {
-        return(
-          <SkillComponent name={e["language"]} img={e["image"]} key={e["language"]}/>
-        );
-      })}
+      <div>
+        <div className="font-bold text-xl" style={categoryStyle()}>Have Used:</div>
+        <div className="flex flex-wrap">
+        {language["used"].map((e) => {
+          return(
+            <SkillComponent name={e["language"]} img={e["image"]} key={e["language"]}/>
+          );
+        })}
+        </div>
       </div>
     </div>
   );
@@ -47,7 +51,7 @@ function Content() {
 
 function Skills() {
   return (
-    <ContentFrame title="Preferable Language" content={Content()} />
+    <ContentFrame title="Skills" content={Content()} />
   );
 }
 

@@ -20,9 +20,13 @@ function Content(){
         {myself.introduction}
       </span>
       <br/>
-      <span className="text-3xl">
-        <a className="float-right" href={myself.twitter}><FontAwesomeIcon icon={faTwitter}/></a>
-        <a className="float-right" href={myself.github}><FontAwesomeIcon icon={faGithub}/></a><br/>
+      <span className="text-3xl m-2">
+        <a className="float-right" href={myself.twitter}>
+          <FontAwesomeIcon className="hover:text-purple-800 m-2" icon={faTwitter}/>
+        </a>
+        <a className="float-right" href={myself.github}>
+          <FontAwesomeIcon className="hover:text-purple-800 m-2" icon={faGithub}/>
+        </a>
       </span>
     </div>
   )

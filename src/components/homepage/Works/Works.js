@@ -5,7 +5,7 @@ import WorkComponent from "../../component/WorkComponent.js";
 
 function Content() {
 
-  const [myapps,setMyapps] = useState([{name:"",description:"",image:"",url:"",tags:[]}]);
+  const [myapps,setMyapps] = useState([{name:"",description:"",image:"",github_url:"",trial_url:"",tags:[]}]);
 
   useEffect(() => {
     (async () => {
@@ -17,8 +17,9 @@ function Content() {
   return(
   <div className="w-full">
     {myapps.map((e) => {
+      console.log(e["github_url"]);
       return(
-        <WorkComponent key={e} name={e["name"]} description={e["description"]} imgSrc={e["image"]} tags={e["tags"]} url={e["url"]} />
+        <WorkComponent key={e} name={e["name"]} description={e["description"]} imgSrc={e["image"]} tags={e["tags"]} github_url={e["github_url"]} trial_url={e["trial_url"]}/>
       );
     })}
   </div>
