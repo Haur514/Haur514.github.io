@@ -17,10 +17,6 @@ function conv_yyyymmdd(yyyymmdd: number){
     return ret;
 }
 
-function handleButtonClick(){
-    window.location.href="http://localhost:3001/";
-}
-
 function DiaryCard({title, summary, date}: DiaryCardProps){
     const[contentsList,setContentsList] = useState({diary: []});
 
@@ -32,17 +28,15 @@ function DiaryCard({title, summary, date}: DiaryCardProps){
 
   return(
     <div className="w-full p-2">
-        <button className="w-full text-left bg-gray-800 hover:bg-gray-700 text-white rounded px-4 py-2" onClick={handleButtonClick}>
+        <div className="w-full text-left text-white rounded px-4 py-2">
             <div className="text-sm left-1 top-1">
                 {conv_yyyymmdd(date)}
             </div>
-            <div className="text-xl">
-                {title}
-            </div>
-            <div>
+            <a className="text-xl hover:underline" href={"./diary/"+String(date)}>{title}</a>
+            <div className="text-gray-300">
                 {summary}
             </div>
-        </button>
+        </div>
     </div>
   );
 }

@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { Back } from "../../../util/Back";
 import ContentFrame from "../../component/ContentFrame";
-
-function getContent(){
+import AwardAchievementCard from "./AwardAchievementCard";
+import ConferenceAchievementCard from "./ConferenceAchievementCard";
+function GetContent(){
     const [achievements,setAchievements] = useState([]);
     const [domesticConf,setDomesticConf] = useState([]);
     const [internationalConf,setInternationalConf] = useState([]);
@@ -28,21 +29,21 @@ function getContent(){
             <div className="font-bold text-xl">Domestic Conference</div>
             <ul>
             {domesticConf.map((e) => {
-                return (<li key={e}><a>- {e["author"]}, {e["title"]}, {e["conference"]}, {e["year"]}<br/></a></li>);
+                return (<ConferenceAchievementCard key={e} title={e["title"]} author={e["author"]} conference={e["conference"]} year={e["year"]} link={e["link"]}/>);
             })}
             </ul>
             <br/>
             <div className="font-bold text-xl">International Conference</div>
             <ul>
             {internationalConf.map((e) => {
-                return (<li key={e}><a>- {e["author"]}, {e["title"]}, {e["conference"]}, {e["year"]}<br/></a></li>);
+                return (<ConferenceAchievementCard key={e} title={e["title"]} author={e["author"]} conference={e["conference"]} year={e["year"]} link={e["link"]}/>);
             })}
             </ul>
             <br/>
             <div className="font-bold text-xl">Award</div>
             <ul>
             {award.map((e) => {
-                return (<li key={e}><a>- {e["award"]}，{e["conference"]}，{e["year"]}</a></li>)
+                return (<AwardAchievementCard key={e} award={e["award"]} conference={e["conference"]} year={e["year"]}/>)
             })}
             </ul>
         </div>
@@ -52,7 +53,7 @@ function getContent(){
 function ResearchAchievements() {
   return (
     <ContentFrame title="Research Achievements" 
-    content={getContent()}/>
+    content={GetContent()}/>
   );
 }
 

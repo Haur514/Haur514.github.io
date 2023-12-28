@@ -8,9 +8,16 @@ export class Back{
         .then(yamlAsString => {
             tmp = yamlAsString;
         })
-        .catch(err => console.log(err));
+        .catch(err => {
+            console.log(err)
+            return "NaN";
+        });
     
         const jsYaml = require('js-yaml');
         return jsYaml.load(tmp);
+    }
+
+    static async fetch_files_list(dir) {
+        
     }
 }
