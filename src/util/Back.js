@@ -1,8 +1,12 @@
+
+import { basePath } from "../../next.config.js";
+const BASE_PATH = basePath ? basePath: "";
+
 export class Back{
     static async fetch_yaml(filename){
         let tmp;
         
-        await fetch(filename)
+        await fetch(BASE_PATH+filename)
         .then(res => res.blob())
         .then(blob => blob.text())
         .then(yamlAsString => {
