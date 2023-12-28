@@ -1,6 +1,8 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faRocket } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { basePath } from "../../../next.config.js";
+const BASE_PATH = basePath?basePath: "";
 
 function handleClick(url){
   window.location.href = url;
@@ -10,7 +12,7 @@ function WorkComponent(props) {
     <div className="m-2 p-2">
       <div className="font-bold">{props.name}</div>
       <div className="flex">
-      <img className="h-36 w-36 p-2 rounded-lg" src={props.imgSrc} />
+      <img className="h-36 w-36 p-2 rounded-lg" src={BASE_PATH + "/" + props.imgSrc} />
       <div className="w-full">
         <div className="WorkDescription">
           {props.description}

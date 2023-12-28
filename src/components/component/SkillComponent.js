@@ -1,3 +1,5 @@
+import { basePath } from "../../../next.config.js";
+const BASE_PATH = basePath ? basePath: "";
 
 function SkillComponent(props) {
   return (
@@ -5,7 +7,7 @@ function SkillComponent(props) {
       <div className="mx-2">
         {props.name}
       </div>
-      <img className="h-5" src={props.img}></img>
+      <img className="h-5" src={BASE_PATH + "/" + props.img}></img>
     </div>
   );
 }

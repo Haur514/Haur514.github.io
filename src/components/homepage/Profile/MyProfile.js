@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { Back } from "../../../util/Back";
 import useInterval from "../../../util/UseInterval";
 
+import { basePath } from "../../../../next.config.js";
+const BASE_PATH = basePath?basePath: "";
 
 function MyProfile() {
 
@@ -73,7 +75,7 @@ function MyProfile() {
 
   return (
     <div className="relative h-64" ref={myRef}>
-      <img src={"./image/202201_sigss_h-yosiok.jpg"} className="w-full h-full opacity-20 object-cover"/>
+      <img src={`${BASE_PATH}/image/202201_sigss_h-yosiok.jpg`} className="w-full h-full opacity-20 object-cover"/>
       <div className="absolute w-full text-4xl top-1/3 font-bold">
         {showTamano}
       </div>
