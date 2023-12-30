@@ -1,6 +1,6 @@
 const config = {
 
-  purge: [
+  content: [
     './src/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   
