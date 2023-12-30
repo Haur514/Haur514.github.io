@@ -14,7 +14,7 @@ function DiaryTextPane(){
       if(diary_id === undefined){
         return;
       }
-        setDiaryText(await Back.fetch_yaml("../content/diary/"+diary_id+".yaml"));
+        setDiaryText(await Back.fetch_yaml("/content/diary/"+diary_id+".yaml"));
     })();
   },[diary_id])
   
