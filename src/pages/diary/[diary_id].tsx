@@ -2,12 +2,8 @@ import { Back } from "@/util/Back";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-export async function generateStaticParams() {
-  const pages = [20231226]
-  return pages.map((page) => ({
-    diary_id: page
-  }))
-}
+
+
 
 function DiaryTextPane(){
   const router = useRouter();
