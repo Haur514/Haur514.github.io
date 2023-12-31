@@ -3,7 +3,10 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 export async function generateStaticParams() {
-  return [{diary_id: '20231226'}]
+  const pages = [20231226]
+  return pages.map((page) => ({
+    diary_id: page
+  }))
 }
 
 function DiaryTextPane(){
