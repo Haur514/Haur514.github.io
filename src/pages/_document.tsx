@@ -10,7 +10,7 @@ class MyDocument extends Document {
           <div className="relative bg-gray-900 h-10 text-left p-2">
             <TabName link="/" tabName="Home"/>
             <TabName link="/diary" tabName="Diary"/>
-        </div>
+          </div>
         </Head>
         <body>
           <Main />
