@@ -9,4 +9,14 @@ body{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+
+    /*IE(Internet Explorer)・Microsoft Edgeへの対応*/
+    -ms-overflow-style: none;
+    /*Firefoxへの対応*/
+    scrollbar-width: none;
 }
+
+ /*Google Chrome、Safariへの対応*/
+body::-webkit-scrollbar{
+    display: none;
+  }
