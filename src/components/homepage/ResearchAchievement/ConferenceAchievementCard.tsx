@@ -11,7 +11,7 @@ function ConferenceAchievementCard({author, title, conference, year, link}: Prop
   return (
     <div className="my-3">
         <div>
-            <a href={link} className="hover:text-purple-800">
+            <a href={link}>
                 {title}
             </a>
         </div>

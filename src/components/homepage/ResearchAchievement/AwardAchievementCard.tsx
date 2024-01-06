@@ -10,9 +10,9 @@ function AwardAchievementCard({award, conference, year, link}: Props) {
   return (
     <div className="my-3">
         <div>
-            <a href={link}>
+            <span>
                 {award}
-            </a>
+            </span>
         </div>
         <div className="text-gray-400 text-sm">
         <div>

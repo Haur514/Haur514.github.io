@@ -19,7 +19,12 @@ body{
  /*Google Chrome、Safariへの対応*/
 body::-webkit-scrollbar{
     display: none;
-  }
+}
+
+a:hover {
+    color: #6b21a8;
+    text-decoration: underline;
+}
 
 .markdown-preview h1 {
     font-size: 1.3rem;
