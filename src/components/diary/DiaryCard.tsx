@@ -32,7 +32,7 @@ function DiaryCard({title, summary, date}: DiaryCardProps){
             <div className="text-sm left-1 top-1">
                 {conv_yyyymmdd(date)}
             </div>
-            <a className="text-xl hover:underline" href={"./diary/"+String(date)}>{title}</a>
+            <a className="text-xl hover:underline" href={"./diary/content?diary_id="+String(date)}>{title}</a>
             <div className="text-gray-300">
                 {summary}
             </div>

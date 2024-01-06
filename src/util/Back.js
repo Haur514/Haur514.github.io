@@ -21,7 +21,16 @@ export class Back{
         return jsYaml.load(tmp);
     }
 
-    static async fetch_files_list(dir) {
+    static async fetch_md(filename) {
+        let tmp = "";
         
+        await fetch(BASE_PATH+filename)
+        .then((m) => {
+            return m.text()
+        })
+        .then((md) => {
+            tmp = md;
+        })
+        return tmp;
     }
 }

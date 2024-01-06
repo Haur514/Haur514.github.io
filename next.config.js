@@ -2,7 +2,7 @@
 
 const nextConfig = {
     output: "export",
-    productionBrowserSourceMaps: true,
+
 }
 
 module.exports = nextConfig

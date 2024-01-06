@@ -7,7 +7,7 @@ function Diary(){
 
   useEffect(() => {
     (async () => {
-        setContentsList(await Back.fetch_yaml("/content/diary/contents_list.yaml"));
+        setContentsList(await Back.fetch_yaml("/diary/contents_list.yaml"));
     })();
   },[])
 
