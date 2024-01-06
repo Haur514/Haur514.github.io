@@ -2,6 +2,7 @@ import { Back } from "@/util/Back";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from 'remark-gfm';
 
 function DiaryTextPane(){
   const searchParams = useSearchParams();
@@ -19,7 +20,11 @@ function DiaryTextPane(){
   },[searchParams])
   
   return(
-    <ReactMarkdown>{diaryText}</ReactMarkdown>
+    <div className="markdown-preview text-white text-left p-3 m-3 bg-gray-800">
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            {diaryText}
+        </ReactMarkdown>
+    </div>
   );
 }
 
