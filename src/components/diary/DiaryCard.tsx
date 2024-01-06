@@ -22,17 +22,17 @@ function DiaryCard({title, summary, date}: DiaryCardProps){
 
   useEffect(() => {
     (async () => {
-        setContentsList(await Back.fetch_yaml("/content/diary/contents_list.yaml"));
+        setContentsList(await Back.fetch_yaml("/diary/contents_list.yaml"));
     })();
   },[])
 
   return(
     <div className="w-full p-2">
         <div className="w-full text-left text-white rounded px-4 py-2">
-            <div className="text-sm left-1 top-1">
+            <div className="text-sm left-1 top-1 text-gray-300">
                 {conv_yyyymmdd(date)}
             </div>
-            <a className="text-xl hover:underline" href={"./diary/content?diary_id="+String(date)}>{title}</a>
+            <a className="text-xl hover:underline hover:text-purple-800" href={"./diary/content?diary_id="+String(date)}>{title}</a>
             <div className="text-gray-300">
                 {summary}
             </div>

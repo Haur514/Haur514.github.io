@@ -43,6 +43,10 @@ font-size: 1.1rem;
 .markdown-preview h6 {
 font-size: 1.1rem;
 }
+.markdown-preview p{
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+}
 .markdown-preview p code {
 background-color: #525252;
 color: #ff8000;

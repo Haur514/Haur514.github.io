@@ -13,7 +13,7 @@ function Diary(){
 
   return(
     <div className="text-white">
-        {contentsList["diary"].map((e) => {
+        {contentsList["diary"].reverse().map((e) => {
           return(
             <DiaryCard key={e} title={e["title"]} summary={e["summary"]} date={e["date"]} />
           )
