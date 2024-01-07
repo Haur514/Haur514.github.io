@@ -121,3 +121,8 @@ border-left: 3px solid #b3bfc7;
 padding: 2px 0 2px 0.7em;
 color: #626e77;
 }
+
+.markdown-preview img {
+    border-radius: 0.5rem;
+    max-height:30rem;
+}
