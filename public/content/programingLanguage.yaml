@@ -1,16 +1,26 @@
 like:
   - language: Java
     image: ./image/lang/java.png
+    color: "#FF6700"
   - language: HTML
-    image: ./image/lang/html.png
+    image: ./image/lang/html5.svg
+    color: "#E34F26"
   - language: CSS
-    image: ./image/lang/css.png
+    image: ./image/lang/css3.svg
+    color: "#1572B6"
   - language: Python
-    image: ./image/lang/python.png
-  - language: shell
-    image: ./image/lang/shell.png
+    image: ./image/lang/python.svg
+    color: "#3776AB"
+  - language: Shell
+    image: ./image/lang/shell.svg
+    color: "#FFD400"
+  - language: TypeScript
+    image: ./image/lang/typescript.svg
+    color: "#3178C6"
 used:
   - language: C
-    image: ./image/lang/c.png
+    image: ./image/lang/c.svg
+    color: "#717375"
   - language: JavaScript
-    image: ./image/lang/javascript.png
+    image: ./image/lang/javascript.svg
+    color: "#FFC20E"

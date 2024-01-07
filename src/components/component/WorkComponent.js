@@ -12,7 +12,7 @@ function WorkComponent(props) {
     <div className="m-2 p-2">
       <div className="font-bold">{props.name}</div>
       <div className="flex">
-      <img className="h-36 w-36 p-2 rounded-lg" src={BASE_PATH + "/" + props.imgSrc} />
+      <img className="aspect-square w-36 p-2 rounded-lg overflow-clip rounded-xl" src={BASE_PATH + "/" + props.imgSrc} />
       <div className="w-full">
         <div className="WorkDescription">
           {props.description}

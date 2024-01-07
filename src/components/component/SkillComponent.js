@@ -3,11 +3,11 @@ const BASE_PATH = basePath ? basePath: "";
 
 function SkillComponent(props) {
   return (
-    <div className="m-2 p-2 font-bold flex">
+    <div className="m-1 px-1 flex" style={{backgroundColor: props.color}}>
+      <img className="h-5 block m-auto" src={BASE_PATH + "/" + props.img} style={{fill: "#42AFE3"}}/>
       <div className="mx-2">
         {props.name}
       </div>
-      <img className="h-5" src={BASE_PATH + "/" + props.img}></img>
     </div>
   );
 }

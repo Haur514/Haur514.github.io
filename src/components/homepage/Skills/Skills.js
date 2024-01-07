@@ -26,21 +26,21 @@ function Content() {
   return(
     <div>
       <div>
-        <div className="font-bold text-xl" style={categoryStyle()}>Like:</div>
+        <div className="font-bold text-xl">Like:</div>
         <div className="flex flex-wrap">
         {language["like"].map((e) => {
           return(
-            <SkillComponent name={e["language"]} img={e["image"]} key={e["language"]} />
+            <SkillComponent name={e["language"]} img={e["image"]} color={e["color"]} key={e["language"]} />
           );
         })}
         </div>
       </div>
       <div>
-        <div className="font-bold text-xl" style={categoryStyle()}>Have Used:</div>
+        <div className="font-bold text-xl">Have Used:</div>
         <div className="flex flex-wrap">
         {language["used"].map((e) => {
           return(
-            <SkillComponent name={e["language"]} img={e["image"]} key={e["language"]}/>
+            <SkillComponent name={e["language"]} img={e["image"]} color={e["color"]} key={e["language"]}/>
           );
         })}
         </div>
