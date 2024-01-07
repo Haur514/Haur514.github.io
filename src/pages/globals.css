@@ -27,30 +27,41 @@ a:hover {
 }
 
 .markdown-preview h1 {
-    font-size: 1.3rem;
-    font-weight: 600
+    font-size: 1.5rem;
+    font-weight: 800
 },
 .markdown-preview h6 {
-font-weight: 600;
+font-weight: 800;
 }
 .markdown-preview h2 {
-font-size: 1.2rem;
+font-size: 1.3rem;
+font-weight: 800
+
 }
 .markdown-preview h3 {
 font-size: 1.1rem;
+font-weight: 800
+
 }
 .markdown-preview h4 {
 font-size: 1.1rem;
+font-weight: 800
+
 }
 .markdown-preview h5 {
 font-size: 1.1rem;
+font-weight: 800
+
 }
 .markdown-preview h6 {
 font-size: 1.1rem;
+font-weight: 800
+
 }
 .markdown-preview p{
-    margin-top: .7rem;
-    margin-bottom: .7rem;
+    margin-top: .3rem;
+    margin-bottom: 1.1rem;
+    color: #f3f4f6;
 }
 .markdown-preview p code {
 background-color: #525252;
