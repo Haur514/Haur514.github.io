@@ -28,3 +28,6 @@ award:
   - award: "最優秀論文賞"
     conference: "Software Engineering Symposium"
     year: 2023
+  - award: "善吾賞"
+    conference: "ソフトウェアテストシンポジウム 2024 東京"
+    year: 2024
