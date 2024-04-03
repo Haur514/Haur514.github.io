@@ -32,3 +32,12 @@ myapp:
     tags:
       - JavaScript
       - Front End
+  - name: ExtractSaizeriyaMenuID
+    description: Assist in obtaining menu IDs for Saizeriya.
+    image: ./image/works/extractsaizeriyamenuid.png
+    github_url: https://github.com/Haur514/extract_saizeriya_menuid
+    trial_url: https://haur514.github.io/extract_saizeriya_menuid/
+    tags:
+      - TypeScript
+      - Saizeriya
+      - OCR
